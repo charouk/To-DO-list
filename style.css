@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Splash&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arima', cursive;
+    
+    list-style: none;
+}
+
+body{
+    width:100vw ;
+    height: 100vh;
+    position: relative;
+    
+}
+.container{
+    width: 80%;
+    height: 90%;
+    
+    border: 1px solid pink ;
+    background: linear-gradient(rgb(209, 106, 187),rgb(163, 120, 167));
+     position: absolute;
+     bottom: 5%;
+     right: 10%;
+     border-radius:20px;
+
+}
+.header{
+    width:100%;
+    height:30% ;
+    background-image: url('back.jpg');
+    position: relative;
+    padding-top: 30px;
+
+
+}
+.clear{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top:30px;
+    right: 30px;
+}
+#reload{
+    font-size: 40px;
+    color: azure;
+}
+.header #date{
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    left:5px ;
+}
+
+.content {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.content ul{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.content .item {
+    width: 70%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.content .item i{
+    color: #000;
+    font-size: 20px;
+}
+.content .item p{
+    font-weight: 600;
+    font-size: 20px;
+}
+.container #add{
+  padding-top: 20px;
+  margin: 20px 0 0 20px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+    }
+.container #add .fa-plus{
+   font-size:30px;
+
+}
+.container #add #add-item{
+
+   width: 80%;
+   height: 30px;
+   border-radius: 10px;
+
+
+}
